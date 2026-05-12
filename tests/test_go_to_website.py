@@ -1,5 +1,5 @@
 from playwright.sync_api import expect
-from objectrepository.Home import Home
+from objectrepository.home import Home
 from objectrepository.mestery import Mestery
 
 class Test_go_to_website:
