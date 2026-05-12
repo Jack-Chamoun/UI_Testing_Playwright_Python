@@ -2,7 +2,7 @@ import pytest
 
 def run_tests():
     pytest.main([
-        "--html=report.html",
+        "--html=reports/report.html",
         "--self-contained-html"
     ])
 
