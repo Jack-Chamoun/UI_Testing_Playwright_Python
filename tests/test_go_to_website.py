@@ -9,3 +9,4 @@ class Test_go_to_website:
         expect(page.get_by_role("banner")).to_contain_text("Books to Scrape")
         page.locator(Home.MESTERY_BUTTON).click()
         expect(page.locator(Mestery.MESTERY_PAGE_TITLE)).to_be_visible()
+        
