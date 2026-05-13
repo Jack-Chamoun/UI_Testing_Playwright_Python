@@ -81,3 +81,4 @@ Thumbs.db
 ._pycache_/
 reports/
 screenshots/
+.pytest_cache/
