@@ -79,4 +79,5 @@ Thumbs.db
 # Logs
 *.log
 ._pycache_/
-.reports/
+reports/
+screenshots/
