@@ -41,5 +41,3 @@ def pytest_runtest_makereport(item, call):
             file_path = os.path.join(screenshots_dir, file_name)
 
             page.screenshot(path=file_path, full_page=True)
-
-            print(f"\nScreenshot saved: {file_path}")
